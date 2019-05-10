@@ -1,0 +1,23 @@
+---
+name: Worklogv2.1
+code: woorklog
+type: extension
+copyright: >
+belong author
+site:''
+author: 'WangXinghe'
+abstract: The hello world example.
+desc: "Add a api to commit worklog,change api of add worklog "
+install: |
+  1. Install through the buildin extension manager.
+    1.1 Login to zentao system as administrator, visit the admin->extension
+    1.2 Go to the obtain page, search hellozentao.
+    1.3 Click the AutoInstall and begin the installation.
+  2. Manual install. Unzip this package and copy files under module directory to the zentao/module.
+releases:
+  2.1:
+    zentaoversion: all
+    charge: free
+    license: LGPL
+    changelog: First release.
+    date: 2011-10-24
